@@ -5,8 +5,8 @@
 * [Instructions](#instructions)
 * [Demo](#Demo)
 * [Screenshot](#Screenshot)
-* [Technologies Used](#Technologies Used)
-* [Outside code source](#Outside code source)
+* [TechnologiesUsed](#TechnologiesUsed)
+* [OutsideCodeSource](#OutsideCodeSource)
 
 ## Instructions
 
@@ -20,14 +20,14 @@ https://mzlovelyj.github.io/Matching-Game/
 
 ![screenshot](https://i.imgur.com/myqDBL1.png)
 
-## Technologies Used
+## TechnologiesUsed
 
 * HTML
 * CSS
 * JavaScript
 * jQuery
 
-## Outside code source
+## OutsideCodeSource
 
 * I used the following code from this tutorial to create a PopUp for congratulations and statistics message when the User finishes the game: http://inspirationalpixels.com/tutorials/custom-popup-modal#step-html.HTML
 * I used the following code from here to help me create the timer: https://codepen.io/cathydutton/pen/GBcvo. 
