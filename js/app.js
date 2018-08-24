@@ -55,13 +55,13 @@ function printScore() {
     $('.stats').append("You made " + moveCounter + " moves.<br>");
     //Print out the stars-score on the result PopUp.
     if (totalStars == 3) {
-        $('.stats').append("<br>YO! you got" + totalStars + " stars! YOU'RE AWESOME!!");
+        $('.stats').append("<br>YO! you got " + totalStars + " stars! YOU'RE AWESOME!!");
         $('.stats').append("<br><span class='stars'>★★★</span>");
     } else if (totalStars == 2) {
-        $('.stats').append("<br>You got " + totalStars + " stars. Very good! But not perfect...");
+        $('.stats').append("<br>You got " + totalStars + " stars. You did great! Almost there...");
         $('.stats').append("<br><span class='stars'>★★☆</span>");
     } else if (totalStars == 1) {
-        $('.stats').append("<br>HEY buddy you got" + totalStars + " star. you can do better.");
+        $('.stats').append("<br>HEY buddy you got " + totalStars + " star. I think you can do better.");
         $('.stats').append("<br><span class='stars'>★☆☆</span>");
     }
     //Prints the time.
@@ -74,8 +74,8 @@ $(function() {
 
     /**Restarts the game.*/
     function playAgain() {
-        //Turn the cards around.
-        resetCards(); //Reset the unmatched cards.
+        //Turns the cards around.
+        resetCards(); //Resets the unmatched cards.
         afterReset = true;
         $('.deck li').each(function() {
             let isMatched = $(this).hasClass('match');
@@ -86,7 +86,7 @@ $(function() {
             }
         });
 
-        //Shuffle the cards again,
+        //Shuffles the cards again,
         let shuffledCards = shuffle(cardsToShuffle);
         $('.deck').append(shuffledCards);
 
@@ -118,11 +118,11 @@ $(function() {
         clickCounter = 0;
     }
 
-    /** In case the two cards do not match, take the appropriate actions.*/
+    /** In case the two cards do not match, takes the appropriate actions.*/
     function unmatchCards() {
         $(flippedCards.card1element).toggleClass('unmatch');
         $(flippedCards.card2element).toggleClass('unmatch');
-        //Reset the cards that did not match.
+        //Resets the cards that did not match.
         setTimeout(resetCards, 500);
     }
 
@@ -165,7 +165,7 @@ $(function() {
 
     }
 
-    //Get the cards in order to shuffle them.
+    //Gets the cards in order to shuffle them.
     let cards = document.getElementsByClassName("card");
     let cardsToShuffle = [...cards];
     let shuffledCards = shuffle(cardsToShuffle);
@@ -206,7 +206,7 @@ $(function() {
         clearInterval(Interval);
         Interval = setInterval(startTimer, 10);
 
-        if (clickCounter <= 2) { //Makes sure the user doesn't open third card.
+        if (clickCounter <= 2) { //Makes sure the user doesn't open a third card.
             let isMatched = $(this).hasClass('match');
 
             if (isClosed) {

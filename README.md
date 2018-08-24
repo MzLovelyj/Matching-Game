@@ -3,18 +3,31 @@
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [Contributing](#contributing)
+* [Demo](#Demo)
+* [Screenshot](#Screenshot)
+* [Technologies Used](#Technologies Used)
+* [Outside code source](#Outside code source)
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+This Memory game is a card game in which all of the cards are laid face down, and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards. For every ten wrong turns, you lose a star. Your Goal is to keep all three stars.
 
-To get started, open `js/app.js` and start building out the app's functionality
+## Demo
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+https://mzlovelyj.github.io/Matching-Game/
 
-## Contributing
+## Screenshot
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+![screenshot](https://imgur.com/a/VxDf182)
 
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+## Technologies Used
+
+* HTML
+* CSS
+* JavaScript
+* jQuery
+
+## Outside code source
+
+* I used the following code from this tutorial to create a PopUp for congratulations and statistics message when the User finishes the game: http://inspirationalpixels.com/tutorials/custom-popup-modal#step-html.HTML
+* I used the following code from here to help me create the timer: https://codepen.io/cathydutton/pen/GBcvo. 
