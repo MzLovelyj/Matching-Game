@@ -18,7 +18,7 @@ https://mzlovelyj.github.io/Matching-Game/
 
 ## Screenshot
 
-![screenshot](https://imgur.com/a/VxDf182)
+![screenshot](https://i.imgur.com/myqDBL1.png)
 
 ## Technologies Used
 
