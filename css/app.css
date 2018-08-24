@@ -151,6 +151,7 @@ h1 {
 /* Close Button */
 
 .popup-close {
+    text-align: center;
     width: 30px;
     height: 30px;
     padding-top: 4px;

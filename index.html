@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" type="image/jpg" href="img/gameImg.png" />
     <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
 </head>
@@ -51,30 +52,23 @@
 
 
         <main>
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <ul class="deck">
-                        <li class="col card close">
+                        <li class="col-md-4 card close">
                             <i class="fa fa-diamond"></i>
                         </li>
                         <li class="col-md-4 card close">
                             <i class="fa fa-paper-plane-o"></i>
                         </li>
-                        <li class="col-md-4 card close">
-                            <i class="fa fa-anchor"></i>
-                        </li>
+
                         <li class="col-md-4 card close">
                             <i class="fa fa-bolt"></i>
                         </li>
                         <li class="col-md-4 card close">
                             <i class="fa fa-cube"></i>
                         </li>
-                        <li class="col-md-4 card close">
-                            <i class="fa fa-anchor"></i>
-                        </li>
-                        <li class="col-md-4 card close">
-                            <i class="fa fa-leaf"></i>
-                        </li>
+
                         <li class="col-md-4 card close">
                             <i class="fa fa-bicycle"></i>
                         </li>
@@ -84,9 +78,7 @@
                         <li class="col-md-4 card close">
                             <i class="fa fa-bomb"></i>
                         </li>
-                        <li class="col-md-4 card close">
-                            <i class="fa fa-leaf"></i>
-                        </li>
+
                         <li class="col-md-4 card close">
                             <i class="fa fa-bomb"></i>
                         </li>
@@ -109,24 +101,25 @@
     </div>
 
     <footer>
-        <a class="btn" data-popup-open="popup-1" href="#">POP UP</a>
-        <div class="popup" data-popup="popup-1">
-            <div class="popup-inner">
+        <a class="btn " data-popup-open="popup-1 " href="# ">POP UP</a>
+        <div class="popup " data-popup="popup-1 ">
+            <div class="popup-inner ">
                 <h2>Well done! Here are your Final stats:</h2>
-                <p class="stats">
+                <p class="stats ">
                     <!-- Prints out the stats from app.js section PopUp-->
                 </p>
-                <input class="playAgain" type="button" value="Play again!" data-popup-close="popup-1">
-                <a class="popup-close" data-popup-close="popup-1" href="#">x</a>
+                <input class="playAgain " type="button " value="Play again! " data-popup-close="popup-1 ">
+                <a class="popup-close " data-popup-close="popup-1 " href="# ">x</a>
             </div>
         </div>
 
     </footer>
     <!-- JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/app.js"></script>
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
 
-</html>
+    <script src="js/app.js "></script>
+</body>
 
 </html>
